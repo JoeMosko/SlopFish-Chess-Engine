@@ -1,4 +1,4 @@
-class Board:
+class LogicBoard:
     #declare points for each piece
     PAWN = 1
     KNIGHT = BISHOP = 3

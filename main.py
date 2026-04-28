@@ -1,9 +1,9 @@
-import Board
-from PygameBoard import py_game_board
+import LogicBoard
+from PygameBoard import pygame_board
 def main():
-    board = Board.Board(empty=False)
+    board = LogicBoard.LogicBoard(empty=False)
     board.toString()
-    py_game_board()
+    pygame_board()
 
 
 if __name__ == "__main__":
